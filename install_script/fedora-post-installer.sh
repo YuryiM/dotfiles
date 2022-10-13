@@ -43,3 +43,7 @@ done < pkglist.txt
 sudo dnf -y install $packages
 
 # Install fonts and use them
+
+# Creates symbolic links
+# Neovim symlink
+ln -s ../.config/nvim/ ~/.config/nvim
