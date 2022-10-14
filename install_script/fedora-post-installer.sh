@@ -45,5 +45,12 @@ sudo dnf -y install $packages
 # Install fonts and use them
 
 # Creates symbolic links
+
 # Neovim symlink
 ln -s ../.config/nvim/ ~/.config/nvim
+
+# Awesome symlink
+ln -s ../.config/awesome/ ~/.config/awesome/
+
+# MPV symlink
+ln -s ../.config/mpv/ ~/.config/mpv/
