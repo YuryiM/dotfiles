@@ -42,6 +42,8 @@ done < pkglist.txt
 # Install packages
 sudo dnf -y install $packages
 
+# Install pip packages
+python3 -m pip install --user qmk
 # Install fonts and use them
 
 # Creates symbolic links
