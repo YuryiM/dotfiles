@@ -213,6 +213,12 @@ local plugins = {
     end,
   },
 
+  ["vimwiki/vimwiki"] = {
+
+  },
+
+  ["junegunn/goyo.vim"] = {},
+
   -- Speed up deffered plugins
   ["lewis6991/impatient.nvim"] = {},
 }
