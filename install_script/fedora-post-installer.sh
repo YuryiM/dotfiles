@@ -44,6 +44,10 @@ sudo dnf -y install $packages
 
 # Install pip packages
 python3 -m pip install --user qmk
+
+# Install anki
+# https://docs.ankiweb.net/platform/linux/installing.html
+
 # Install fonts and use them
 
 # Creates symbolic links
