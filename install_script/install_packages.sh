@@ -17,6 +17,7 @@ dnf install -y $(< packages.list)
 # Install Obsidian.md
 flatpak install flathub md.obsidian.Obsidian
 
+# CONFIGURE RCLONE!!!! INSERT INSTRUCTIONS HERE
 
 # Enable OpenH264 
 sudo dnf config-manager --set-enabled fedora-cisco-openh264
