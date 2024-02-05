@@ -35,3 +35,5 @@ Error: EISDIR: illegal operation on a directory, read
 2024-02-05T05:54:51.420Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 31.896s)
 2024-02-05T05:54:53.108Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.657s)
 2024-02-05T05:55:00.207Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.136s
+2024-02-05T05:55:11.412Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.159s
+2024-02-05T05:55:22.633Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: dotfiles - YuryiM (has token)
