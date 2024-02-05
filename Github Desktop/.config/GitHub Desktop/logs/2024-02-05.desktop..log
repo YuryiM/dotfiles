@@ -1,0 +1,30 @@
+2024-02-05T05:49:41.191Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-02-05T05:49:41.197Z - info: [ui] [AppStore] found account: YuryiM (YM)
+2024-02-05T05:49:41.987Z - warn: [ui] Error refreshing account 'YuryiM'
+Error: Cannot update an account which doesn't have a token: YuryiM
+    at rt (/home/yuryi/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/yuryi/webpack:/app/src/lib/stores/accounts-store.ts:216:12
+    at Va.tryUpdateAccount (/home/yuryi/webpack:/app/src/lib/stores/accounts-store.ts:135:20)
+    at /home/yuryi/webpack:/app/src/lib/stores/accounts-store.ts:115:37
+    at Array.map (<anonymous>)
+    at Va.refresh (/home/yuryi/webpack:/app/src/lib/stores/accounts-store.ts:115:21)
+    at Va.loadInitialState (/home/yuryi/webpack:/app/src/lib/stores/app-store.ts:2210:24)
+2024-02-05T05:49:42.180Z - info: [ui] launching: 3.3.5-linux2 (Linux 6.6.13-200.fc39.x86_64)
+2024-02-05T05:49:42.182Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2024-02-05T05:49:42.288Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-02-05T05:49:42.481Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-02-05T05:49:42.551Z - info: [ui] Stats reported.
+2024-02-05T05:49:42.588Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-02-05T05:49:42.703Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-02-05T05:53:33.792Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-02-05T05:53:33.797Z - info: [ui] [AppStore] found account: YuryiM (YM)
+2024-02-05T05:53:33.834Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2024-02-05T05:53:34.433Z - info: [ui] launching: 3.3.5-linux2 (Linux 6.6.13-200.fc39.x86_64)
+2024-02-05T05:53:34.434Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2024-02-05T05:53:34.531Z - info: [ui] Subscribed 'YuryiM' to Alive channel
+2024-02-05T05:53:53.523Z - info: [ui] Subscribed 'YuryiM' to Alive channel
+2024-02-05T05:53:53.578Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-02-05T05:53:53.579Z - info: [ui] [AppStore] found account: YuryiM (YM)
+2024-02-05T05:53:53.631Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2024-02-05T05:53:54.114Z - info: [ui] launching: 3.3.5-linux2 (Linux 6.6.13-200.fc39.x86_64)
+2024-02-05T05:53:54.114Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'

@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=ymironchyk@gmail.com
+Enabled=false
+Parent=f8dd50ee3a1599437bcf8c535a2c9e2c6c4fb23d
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=aa5173203ae50063895e0d692a8fcb6537dc9ce4
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=ymironchyk@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

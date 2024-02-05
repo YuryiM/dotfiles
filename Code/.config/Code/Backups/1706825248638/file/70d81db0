@@ -1,0 +1,12 @@
+file:///home/yuryi/Programming/test.c {"mtime":1706837915443,"ctime":1706837626567,"size":79,"etag":"3bre3lkjp2h","orphaned":false,"typeId":""}
+#include <stdio.h>
+
+int main(){
+    printf("hello world");
+
+
+
+
+    
+    return 0;
+}
