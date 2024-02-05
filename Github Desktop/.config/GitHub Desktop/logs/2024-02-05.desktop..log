@@ -146,3 +146,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 2024-02-05T06:13:33.094Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.077s
 2024-02-05T06:13:39.243Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.177s
+2024-02-05T06:13:47.500Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.144s
+2024-02-05T06:13:51.173Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: dotfiles - YuryiM (has token)
+2024-02-05T06:13:53.250Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.055s)
+2024-02-05T06:13:54.813Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.549s)
+2024-02-05T06:13:56.322Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.508s)
+2024-02-05T06:21:32.980Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2024-02-05T06:22:46.684Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
