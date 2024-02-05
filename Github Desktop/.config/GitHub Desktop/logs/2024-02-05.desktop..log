@@ -155,3 +155,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Error: EISDIR: illegal operation on a directory, read
 2024-02-05T06:22:46.684Z - error: [ui] Could not load new contents for syntax highlighting
 Error: EISDIR: illegal operation on a directory, read
+2024-02-05T06:23:13.578Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.167s
+2024-02-05T06:28:44.279Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2024-02-05T06:30:49.756Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2024-02-05T06:30:51.121Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
