@@ -1,30 +1,17 @@
 # !/bin/zsh
-#mkdir -p gnome-session/.config/ && cp -r $DOTFILES/.config/gnome-session $DOTFILES/gnome-session/.config && stow gnome-session
 
-mkdir -p Code/.config/ && cp -r $DOTFILES/.config/Code $DOTFILES/Code/.config && stow Code
-mkdir -p dconf/.config/ && cp -r $DOTFILES/.config/dconf $DOTFILES/dconf/.config && stow dconf
-mkdir -p enchant/.config/ && cp -r $DOTFILES/.config/enchant $DOTFILES/enchant/.config && stow enchant
-mkdir -p evolution/.config/ && cp -r $DOTFILES/.config/evolution $DOTFILES/evolution/.config && stow evolution
-mkdir -p 'Github Desktop'/.config/ && cp -r $DOTFILES/.config/'Github Desktop' $DOTFILES/'Github Desktop'/.config && stow 'Github Desktop'
-mkdir -p gnome-control-center/.config/ && cp -r $DOTFILES/.config/gnome-control-center $DOTFILES/gnome-control-center/.config && stow gnome-control-center
-mkdir -p gnome-session/.config/ && cp -r $DOTFILES/.config/gnome-session $DOTFILES/gnome-session/.config && stow gnome-session
-mkdir -p goa-1.0/.config/ && cp -r $DOTFILES/.config/goa-1.0 $DOTFILES/goa-1.0/.config && stow goa-1.0
-mkdir -p gtk-3.0/.config/ && cp -r $DOTFILES/.config/gtk-3.0 $DOTFILES/gtk-3.0/.config && stow gtk-3.0
-mkdir -p gtk-4.0/.config/ && cp -r $DOTFILES/.config/gtk-4.0 $DOTFILES/gtk-4.0/.config && stow gtk-4.0
-mkdir -p i3/.config/ && cp -r $DOTFILES/.config/i3 $DOTFILES/i3/.config && stow i3
-mkdir -p ibus/.config/ && cp -r $DOTFILES/.config/ibus $DOTFILES/ibus/.config && stow ibus
-mkdir -p keepassxc/.config/ && cp -r $DOTFILES/.config/keepassxc $DOTFILES/keepassxc/.config && stow keepassxc
-mkdir -p kitty/.config/ && cp -r $DOTFILES/.config/kitty $DOTFILES/kitty/.config && stow kitty
-mkdir -p mc/.config/ && cp -r $DOTFILES/.config/mc $DOTFILES/mc/.config && stow mc
-mkdir -p nautilus/.config/ && cp -r $DOTFILES/.config/nautilus $DOTFILES/nautilus/.config && stow nautilus
-# mkdir -p nvim/.config/ && cp -r $DOTFILES/.config/nvim $DOTFILES/nvim/.config && stow nvim
-mkdir -p pulse/.config/ && cp -r $DOTFILES/.config/pulse $DOTFILES/pulse/.config && stow pulse
-mkdir -p QDirStat/.config/ && cp -r $DOTFILES/.config/QDirStat $DOTFILES/QDirStat/.config && stow QDirStat
-mkdir -p ranger/.config/ && cp -r $DOTFILES/.config/ranger $DOTFILES/ranger/.config && stow ranger
-mkdir -p rclone/.config/ && cp -r $DOTFILES/.config/rclone $DOTFILES/rclone/.config && stow rclone
-mkdir -p sway/.config/ && cp -r $DOTFILES/.config/sway $DOTFILES/sway/.config && stow sway
-mkdir -p texstudio/.config/ && cp -r $DOTFILES/.config/texstudio $DOTFILES/texstudio/.config && stow texstudio
-mkdir -p Thunar/.config/ && cp -r $DOTFILES/.config/Thunar $DOTFILES/Thunar/.config && stow Thunar
-mkdir -p waybar/.config/ && cp -r $DOTFILES/.config/waybar $DOTFILES/waybar/.config && stow waybar
-mkdir -p xfce4/.config/ && cp -r $DOTFILES/.config/xfce4 $DOTFILES/xfce4/.config && stow xfce4
-mkdir -p zsh/.config/ && cp -r $DOTFILES/.config/zsh $DOTFILES/zsh/.config && stow zsh
+stow -D enchant && cp -r $DOTFILES/enchant/.config/enchant $XDG_CONFIG_HOME/ && rm -r $DOTFILES/enchant/
+stow -D evolution && cp -r $DOTFILES/evolution/.config/evolution $XDG_CONFIG_HOME/ && rm -r $DOTFILES/evolution/
+stow -D 'Github Desktop' && cp -r $DOTFILES/Github\ Desktop/.config/Github\ Desktop $XDG_CONFIG_HOME/ && rm -r $DOTFILES/Github\ Desktop/
+stow -D gnome-control-center && cp -r $DOTFILES/gnome-control-center/.config/gnome-control-center $XDG_CONFIG_HOME/ && rm -r $DOTFILES/gnome-control-center/
+stow -D gnome-session && cp -r $DOTFILES/gnome-session/.config/gnome-session $XDG_CONFIG_HOME/ && rm -r $DOTFILES/gnome-session/
+stow -D goa-1.0 && cp -r $DOTFILES/goa-1.0/.config/goa-1.0 $XDG_CONFIG_HOME/ && rm -r $DOTFILES/goa-1.0/
+stow -D gtk-3.0 && cp -r $DOTFILES/gtk-3.0/.config/gtk-3.0 $XDG_CONFIG_HOME/ && rm -r $DOTFILES/gtk-3.0/
+stow -D gtk-4.0 && cp -r $DOTFILES/gtk-4.0/.config/gtk-4.0 $XDG_CONFIG_HOME/ && rm -r $DOTFILES/gtk-4.0/
+stow -D ibus && cp -r $DOTFILES/ibus/.config/ibus $XDG_CONFIG_HOME/ && rm -r $DOTFILES/ibus/
+stow -D keepassxc && cp -r $DOTFILES/keepassxc/.config/keepassxc $XDG_CONFIG_HOME/ && rm -r $DOTFILES/keepassxc/
+stow -D nautilus && cp -r $DOTFILES/nautilus/.config/nautilus $XDG_CONFIG_HOME/ && rm -r $DOTFILES/nautilus/
+stow -D pulse && cp -r $DOTFILES/pulse/.config/pulse $XDG_CONFIG_HOME/ && rm -r $DOTFILES/pulse/
+stow -D QDirStat && cp -r $DOTFILES/QDirStat/.config/QDirStat $XDG_CONFIG_HOME/ && rm -r $DOTFILES/QDirStat/
+stow -D texstudio && cp -r $DOTFILES/texstudio/.config/texstudio $XDG_CONFIG_HOME/ && rm -r $DOTFILES/texstudio/
+stow -D xfce4 && cp -r $DOTFILES/xfce4/.config/xfce4 $XDG_CONFIG_HOME/ && rm -r $DOTFILES/xfce4/
