@@ -37,3 +37,111 @@ Error: EISDIR: illegal operation on a directory, read
 2024-02-05T05:55:00.207Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.136s
 2024-02-05T05:55:11.412Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.159s
 2024-02-05T05:55:22.633Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: dotfiles - YuryiM (has token)
+2024-02-05T05:55:32.298Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.170s
+2024-02-05T06:07:45.844Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 743.172s)
+2024-02-05T06:07:47.436Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.587s)
+2024-02-05T06:07:48.920Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.484s)
+2024-02-05T06:13:06.516Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/5103021dc7d64bc8_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/b54a1f8948192d6e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/cb09ee3eeecbd92e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/fbd44b8120a1fbef_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/index-dir/the-real-index
+	modified:   Github Desktop/.config/GitHub Desktop/DawnCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_0
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_2
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/index
+	modified:   Github Desktop/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/Local Storage/leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/TransportSecurity
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager-journal
+	modified:   Github Desktop/.config/GitHub Desktop/logs/2024-02-05.desktop..log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.config/zsh/powerlevel10k/
+	zsh/.config/zsh/powerlevel10k/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2024-02-05T06:13:06.517Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.079s
+2024-02-05T06:13:15.132Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/5103021dc7d64bc8_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/b54a1f8948192d6e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/cb09ee3eeecbd92e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/fbd44b8120a1fbef_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/index-dir/the-real-index
+	modified:   Github Desktop/.config/GitHub Desktop/DawnCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_0
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_2
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/index
+	modified:   Github Desktop/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/Local Storage/leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/TransportSecurity
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager-journal
+	modified:   Github Desktop/.config/GitHub Desktop/logs/2024-02-05.desktop..log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.config/zsh/powerlevel10k/
+	zsh/.config/zsh/powerlevel10k/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2024-02-05T06:13:15.132Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.097s
+2024-02-05T06:13:30.748Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2024-02-05T06:13:33.093Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/5103021dc7d64bc8_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/b54a1f8948192d6e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/cb09ee3eeecbd92e_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/fbd44b8120a1fbef_0
+	modified:   Github Desktop/.config/GitHub Desktop/Cache/Cache_Data/index-dir/the-real-index
+	modified:   Github Desktop/.config/GitHub Desktop/DawnCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_0
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_1
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/data_2
+	modified:   Github Desktop/.config/GitHub Desktop/GPUCache/index
+	modified:   Github Desktop/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/Local Storage/leveldb/000003.log
+	modified:   Github Desktop/.config/GitHub Desktop/TransportSecurity
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager
+	modified:   Github Desktop/.config/GitHub Desktop/WebStorage/QuotaManager-journal
+	modified:   Github Desktop/.config/GitHub Desktop/logs/2024-02-05.desktop..log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.config/zsh/powerlevel10k/
+	zsh/.config/zsh/powerlevel10k/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2024-02-05T06:13:33.094Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 0.077s
