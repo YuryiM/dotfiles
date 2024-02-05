@@ -28,3 +28,9 @@ Error: Cannot update an account which doesn't have a token: YuryiM
 2024-02-05T05:53:53.631Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
 2024-02-05T05:53:54.114Z - info: [ui] launching: 3.3.5-linux2 (Linux 6.6.13-200.fc39.x86_64)
 2024-02-05T05:53:54.114Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2024-02-05T05:54:12.211Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 10.065s)
+2024-02-05T05:54:12.431Z - info: [ui] [Timing] Action 'create commit' for 'YuryiM/dotfiles' took 10.480s
+2024-02-05T05:54:12.462Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2024-02-05T05:54:51.420Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 31.896s)
+2024-02-05T05:54:53.108Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.657s)
