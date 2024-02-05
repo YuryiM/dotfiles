@@ -33,6 +33,9 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 dnf check-update
 sudo dnf -y install code
 
+# Install Rust lang
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # Neovim symlink
 # ln -s ../.config/nvim/ ~/.config/nvim
 

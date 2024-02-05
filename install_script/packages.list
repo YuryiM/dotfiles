@@ -20,10 +20,14 @@ i3-gaps
 ripgrep
 mc
 ranger
-picom
 sway
 swaylock
 swayidle
 swaybg
 rclone
 waybar
+gcc
+zsh
+zathura-pdf-mupdf
+zathura
+mupdf
