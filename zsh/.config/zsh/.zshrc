@@ -7,7 +7,7 @@ fi
 
 # Created by newuser for 5.9
 # Lines configured by zsh-newuser-install
-bindkey -v
+bindkey -e
 # # End of lines configured by zsh-newuser-install
 # # The following lines were added by compinstall
 zstyle :compinstall filename '/home/yuryi/.zshrc'
@@ -32,3 +32,9 @@ source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme
 
 # Set aliases
 alias vim='nvim'
+
+# source antidote
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load

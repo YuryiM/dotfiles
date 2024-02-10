@@ -1,6 +1,7 @@
 export LANG=en_US.UTF-8
-export EDITOR='nvim'
-export VISUAL='vim'
+export KEYTIMEOUT=1
+#export EDITOR='nvim'
+#export VISUAL='nvim'
 export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE=$ZDOTDIR/.histfile
 export HISTSIZE=1000
@@ -11,5 +12,4 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 export DOTFILES=$HOME/dotfiles
 
-PATH=/bin:/usr/bin:/usr/local/bin:/sbin:${PATH}
-export PATH
+export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:${PATH}
